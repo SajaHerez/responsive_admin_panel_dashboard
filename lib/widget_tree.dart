@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_admin_panel_dashboard/screen/drawer_screen.dart';
 import 'package:responsive_admin_panel_dashboard/screen/panel_center_screen.dart';
+import 'package:responsive_admin_panel_dashboard/widget/custom_app_bar.dart';
 import 'package:responsive_admin_panel_dashboard/widget/responsive_layout.dart';
 
 import 'screen/panel_left_screen.dart';
@@ -18,7 +19,7 @@ class WidgetTree extends StatelessWidget {
         child: (ResponsiveLayout.isTinyLimit(context) ||
                 ResponsiveLayout.isTinyHeightLimit(context))
             ? Container()
-            : AppBar(),
+            : CustomAppBar(),
       ),
       body: ResponsiveLayout(
         tiny: Container(),
