@@ -85,7 +85,7 @@ class PieChart2State extends State {
                     height: 4,
                   ),
                   Indicator(
-                    color: Color(0xFF6E1BFF),
+                    color: Color(0xffff5182),
                     text: 'Third',
                     isSquare: true,
                   ),
@@ -147,7 +147,7 @@ class PieChart2State extends State {
           );
         case 2:
           return PieChartSectionData(
-            color: const Color(0xFF6E1BFF),
+            color: const Color(0xffff5182),
             value: 15,
             title: '15%',
             radius: radius,
