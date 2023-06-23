@@ -1,16 +1,14 @@
-# responsive_admin_panel_dashboard
+# Responsive Admin Panel Dashboard
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+ The dashboard is designed to adapt and function seamlessly across different devices and screen sizes, such as desktops, laptops, tablets, and mobile phones. It ensures a consistent user experience regardless of the device being used
 
-A few resources to get you started if this is your first Flutter project:
+### Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+fl_chart: ^0.62.0
+curved_navigation_bar: ^1.0.3
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="assets/images/dashboard.jpg">
