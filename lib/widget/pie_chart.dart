@@ -29,7 +29,7 @@ class PieChart2State extends State {
           borderRadius: BorderRadius.circular(20),
         ),
         child: AspectRatio(
-          aspectRatio: 1.3,
+          aspectRatio: 1.5,
           child: Row(
             children: <Widget>[
               const SizedBox(
