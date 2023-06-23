@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: AppColors.purpleDark,
           primarySwatch: Colors.blue,
           canvasColor: AppColors.purpleLight),
-      home:const WidgetTree(),
+      home: WidgetTree(),
     );
   }
 }
